@@ -1,0 +1,11 @@
+[user]
+	name = SnowCait
+	email = git@snowcait.info
+[color]
+	ui = true
+[alias]
+	; http://blog.toshimaru.net/git-log-graph/
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	lga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	; http://yumewaza.yumemi.co.jp/2010/07/git.html
+	graph = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all --date=short
