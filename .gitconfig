@@ -1,6 +1,5 @@
 [user]
-	name = SnowCait
-	email = git@snowcait.info
+	useConfigOnly = true
 [color]
 	ui = true
 [alias]
@@ -9,3 +8,4 @@
 	lga = log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	; http://yumewaza.yumemi.co.jp/2010/07/git.html
 	graph = log --graph --date-order -C -M --pretty=format:\"<%h> %ad [%an] %Cgreen%d%Creset %s\" --all --date=short
+	delete-merged-branches = !git branch --merged | grep -v \\* | xargs git branch -d
