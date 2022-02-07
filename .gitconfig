@@ -1,5 +1,7 @@
 [user]
 	useConfigOnly = true
+[core]
+	autocrlf = false
 [color]
 	ui = true
 [alias]
