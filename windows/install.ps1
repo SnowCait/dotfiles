@@ -12,3 +12,6 @@ winget install -e --id Fork.Fork --silent
 
 # Hashicorp
 choco install terraform
+
+# Node.js
+winget install -e --id OpenJS.NodeJS -v 16.12.0 --silent
