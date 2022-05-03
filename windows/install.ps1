@@ -15,3 +15,6 @@ choco install terraform
 
 # Node.js
 winget install -e --id OpenJS.NodeJS -v 16.12.0 --silent
+
+# SNS
+winget install -e --id SlackTechnologies.Slack --silent
