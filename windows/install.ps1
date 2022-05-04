@@ -20,6 +20,9 @@ winget install -e --id JetBrains.Toolbox --silent
 # Node.js
 winget install -e --id OpenJS.NodeJS -v 16.12.0 --silent
 
+# jq
+choco install -y jq
+
 # SNS
 winget install -e --id SlackTechnologies.Slack --silent
 winget install -e --id Discord.Discord --silent
