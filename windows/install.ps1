@@ -20,8 +20,11 @@ winget install -e --id JetBrains.Toolbox --silent
 # Node.js
 winget install -e --id OpenJS.NodeJS -v 16.12.0 --silent
 
-# jq
-choco install -y jq
+# # jq
+# choco install -y jq
+
+# # Windows Terminal
+# winget install --id=Microsoft.WindowsTerminal -e
 
 # SNS
 winget install -e --id SlackTechnologies.Slack --silent
