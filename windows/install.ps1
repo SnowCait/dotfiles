@@ -29,3 +29,6 @@ winget install -e --id OpenJS.NodeJS -v 16.12.0 --silent
 # SNS
 winget install -e --id SlackTechnologies.Slack --silent
 winget install -e --id Discord.Discord --silent
+
+# Windows Server Linux
+wsl --install # restart
