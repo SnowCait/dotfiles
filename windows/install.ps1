@@ -33,3 +33,6 @@ winget install -e --id Discord.Discord --silent
 
 # Windows Server Linux
 wsl --install # restart
+
+# Task bar
+# reg add ~~~
