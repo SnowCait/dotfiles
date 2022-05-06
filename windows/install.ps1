@@ -36,3 +36,5 @@ wsl --install # restart
 
 # Task bar
 # reg add ~~~
+
+# Show hidden files
