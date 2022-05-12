@@ -3,7 +3,7 @@ winget install --id Google.Chrome --silent
 
 # Git
 winget install --id Git.Git -e --source winget --silent
-winget install --id GitHub.cli --silent # -y
+winget install --id GitHub.cli --silent --accept-package-agreements
 winget install -e --id GitHub.GitHubDesktop --silent
 winget install -e --id Fork.Fork --silent
 
