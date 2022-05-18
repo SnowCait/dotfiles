@@ -21,6 +21,9 @@ winget install --id=Microsoft.VisualStudio.2022.Community-Preview  -e --silent
 # Node.js
 winget install -e --id OpenJS.NodeJS -v 16.12.0 --silent
 
+# AWS CLI
+winget install -e --id Amazon.AWSCLI --silent
+
 # # jq
 # choco install -y jq
 
