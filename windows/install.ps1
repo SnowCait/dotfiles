@@ -11,7 +11,7 @@ winget install -e --id Fork.Fork --silent
 winget install -e --id Docker.DockerDesktop --silent
 
 # Editor
-winget install -e --id Microsoft.VisualStudioCode --silent
+winget install -e --id Microsoft.VisualStudioCode --silent --override "/VERYSILENT /MERGETASKS=!runcode,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath"
 winget install -e --id JetBrains.Toolbox --silent
 winget install --id=Microsoft.VisualStudio.2022.Community-Preview  -e --silent
 
