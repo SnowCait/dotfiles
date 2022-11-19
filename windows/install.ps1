@@ -44,3 +44,6 @@ wsl --install # restart
 # reg add ~~~
 
 # Show hidden files
+
+# Microsoft Edge
+# 設定 > システムとパフォーマンス > システム > Microsoft Edge が終了してもバックグラウンドの拡張機能およびアプリの実行を続行する
