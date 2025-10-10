@@ -30,6 +30,7 @@ code --install-extension be5invis.toml
 
 # Node.js
 winget install -e --id OpenJS.NodeJS --silent
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 # AWS CLI
 winget install -e --id Amazon.AWSCLI --silent
