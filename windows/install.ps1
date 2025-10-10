@@ -18,7 +18,7 @@ winget install -e --id JetBrains.Toolbox --silent
 winget install --id=Microsoft.VisualStudio.2022.Community-Preview  -e --silent
 
 # Visual Studio Code
-winget install -e --id Microsoft.VisualStudioCode
+winget install -e --id Microsoft.VisualStudioCode --silent
 code --install-extension MS-CEINTL.vscode-language-pack-ja
 # 以下は要確認
 # winget install -e --id Microsoft.VisualStudioCode --silent --override "/VERYSILENT /MERGETASKS=!runcode,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath"
