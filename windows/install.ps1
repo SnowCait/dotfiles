@@ -1,6 +1,9 @@
 # Browser
 winget install --id Google.Chrome --silent
 
+# Windows Terminal
+winget install --id Microsoft.WindowsTerminal -e
+
 # Git
 winget install --id Git.Git -e --source winget --silent
 winget install --id GitHub.cli --silent --accept-package-agreements
@@ -29,9 +32,6 @@ winget install -e --id Amazon.AWSCLI --silent
 
 # # jq
 # choco install -y jq
-
-# # Windows Terminal
-# winget install --id=Microsoft.WindowsTerminal -e
 
 # SNS
 winget install -e --id SlackTechnologies.Slack --silent
