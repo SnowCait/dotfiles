@@ -29,7 +29,7 @@ code --install-extension be5invis.toml
 # choco install terraform
 
 # Node.js
-winget install -e --id OpenJS.NodeJS -v 16.12.0 --silent
+winget install -e --id OpenJS.NodeJS --silent
 
 # AWS CLI
 winget install -e --id Amazon.AWSCLI --silent
