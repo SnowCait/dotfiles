@@ -18,8 +18,10 @@ winget install -e --id JetBrains.Toolbox --silent
 winget install --id=Microsoft.VisualStudio.2022.Community-Preview  -e --silent
 
 # Visual Studio Code
-winget install -e --id Microsoft.VisualStudioCode --silent --override "/VERYSILENT /MERGETASKS=!runcode,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath"
-# TODO: 自動アップデート時に unins000.exe がエラーになってしまうので ACL の変更
+winget install -e --id Microsoft.VisualStudioCode
+# 以下は要確認
+# winget install -e --id Microsoft.VisualStudioCode --silent --override "/VERYSILENT /MERGETASKS=!runcode,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath"
+# # TODO: 自動アップデート時に unins000.exe がエラーになってしまうので ACL の変更
 
 # # Hashicorp
 # choco install terraform
