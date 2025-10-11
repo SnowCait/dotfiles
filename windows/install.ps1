@@ -3,7 +3,7 @@ winget install --id Google.Chrome --silent
 
 # Windows Terminal
 winget install --id Microsoft.WindowsTerminal -e
-winget install --id Microsoft.PowerShell --source winget
+winget install --id Microsoft.PowerShell --source winget -e --silent
 
 # Git
 winget install --id Git.Git -e --source winget --silent
@@ -16,7 +16,7 @@ winget install -e --id Docker.DockerDesktop --silent
 
 # Editor
 # winget install -e --id JetBrains.Toolbox --silent
-winget install --id=Microsoft.VisualStudio.2022.Community-Preview  -e --silent
+winget install --id=Microsoft.VisualStudio.2022.Community-Preview -e --silent
 
 # Visual Studio Code
 winget install -e --id Microsoft.VisualStudioCode --silent
