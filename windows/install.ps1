@@ -21,6 +21,7 @@ winget install --id=Microsoft.VisualStudio.2022.Community-Preview  -e --silent
 winget install -e --id Microsoft.VisualStudioCode --silent
 code --install-extension MS-CEINTL.vscode-language-pack-ja
 code --install-extension esbenp.prettier-vscode
+code --install-extension svelte.svelte-vscode
 code --install-extension be5invis.toml
 # 以下は要確認
 # winget install -e --id Microsoft.VisualStudioCode --silent --override "/VERYSILENT /MERGETASKS=!runcode,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath"
