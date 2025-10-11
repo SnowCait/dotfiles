@@ -3,6 +3,7 @@ winget install --id Google.Chrome --silent
 
 # Windows Terminal
 winget install --id Microsoft.WindowsTerminal -e
+winget install --id Microsoft.PowerShell --source winget
 
 # Git
 winget install --id Git.Git -e --source winget --silent
