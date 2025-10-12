@@ -12,6 +12,7 @@ winget install -e --id GitHub.GitHubDesktop --silent
 winget install -e --id Fork.Fork --silent
 
 # Docker
+wsl --install
 winget install -e --id Docker.DockerDesktop --silent
 
 # Editor
