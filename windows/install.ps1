@@ -25,6 +25,7 @@ code --install-extension MS-CEINTL.vscode-language-pack-ja
 code --install-extension esbenp.prettier-vscode
 code --install-extension svelte.svelte-vscode
 code --install-extension wix.vscode-import-cost
+code --install-extension ziyasal.vscode-open-in-github
 code --install-extension be5invis.toml
 # 以下は要確認
 # winget install -e --id Microsoft.VisualStudioCode --silent --override "/VERYSILENT /MERGETASKS=!runcode,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath"
