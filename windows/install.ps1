@@ -36,7 +36,7 @@ code --install-extension be5invis.toml
 # choco install terraform
 
 # Node.js
-winget install -e --id OpenJS.NodeJS --silent
+winget install -e --id OpenJS.NodeJS.LTS --silent
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 # AWS CLI
