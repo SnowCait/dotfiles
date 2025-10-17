@@ -29,7 +29,7 @@ code --install-extension wix.vscode-import-cost
 code --install-extension ziyasal.vscode-open-in-github
 code --install-extension humao.rest-client
 code --install-extension be5invis.toml
-# 以下は要確認
+# 以下は要確認（addcontextmenufiles,addcontextmenufolders は要りそう）
 # winget install -e --id Microsoft.VisualStudioCode --silent --override "/VERYSILENT /MERGETASKS=!runcode,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath"
 # # TODO: 自動アップデート時に unins000.exe がエラーになってしまうので ACL の変更
 
