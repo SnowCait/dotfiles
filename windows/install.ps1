@@ -1,5 +1,6 @@
 # Browser
 winget install --id Google.Chrome --silent
+winget install -e --id Mozilla.Firefox # 英語版っぽいので日本語にするオプションを要調査
 
 # Windows Terminal
 winget install --id Microsoft.WindowsTerminal -e --silent
