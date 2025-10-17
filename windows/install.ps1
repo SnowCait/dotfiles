@@ -1,5 +1,5 @@
 # Browser
-winget install --id Google.Chrome --silent
+winget install -e --id Google.Chrome --silent
 winget install -e --id Mozilla.Firefox.ja
 
 # Windows Terminal
