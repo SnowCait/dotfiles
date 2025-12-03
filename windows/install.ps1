@@ -28,6 +28,7 @@ code --install-extension svelte.svelte-vscode
 code --install-extension wix.vscode-import-cost
 code --install-extension ziyasal.vscode-open-in-github
 code --install-extension humao.rest-client
+code --install-extension redhat.vscode-yaml
 code --install-extension mechatroner.rainbow-csv
 code --install-extension be5invis.toml
 # 以下は要確認（addcontextmenufiles,addcontextmenufolders は要りそう）
