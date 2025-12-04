@@ -45,8 +45,8 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 # AWS CLI
 winget install -e --id Amazon.AWSCLI --silent
 
-# # jq
-# choco install -y jq
+# jq
+winget install jqlang.jq
 
 # SNS
 winget install -e --id SlackTechnologies.Slack --silent
