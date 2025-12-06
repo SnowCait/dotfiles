@@ -55,6 +55,9 @@ winget install -e --id Discord.Discord --silent
 # Windows Server Linux
 wsl --install # restart
 
+# Go
+# winget install -e --id GoLang.Go # 公式ドキュメントに記載がない
+
 # Task bar
 # reg add ~~~
 
