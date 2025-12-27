@@ -42,6 +42,9 @@ code --install-extension be5invis.toml
 winget install -e --id OpenJS.NodeJS.LTS --silent
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
+# Deno
+irm https://deno.land/install.ps1 | iex
+
 # AWS CLI
 winget install -e --id Amazon.AWSCLI --silent
 
