@@ -31,6 +31,7 @@ code --install-extension humao.rest-client
 code --install-extension redhat.vscode-yaml
 code --install-extension mechatroner.rainbow-csv
 code --install-extension be5invis.toml
+code --install-extension denoland.vscode-deno
 # 以下は要確認（addcontextmenufiles,addcontextmenufolders は要りそう）
 # winget install -e --id Microsoft.VisualStudioCode --silent --override "/VERYSILENT /MERGETASKS=!runcode,addcontextmenufiles,addcontextmenufolders,associatewithfiles,addtopath"
 # # TODO: 自動アップデート時に unins000.exe がエラーになってしまうので ACL の変更
