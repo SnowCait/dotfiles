@@ -21,3 +21,17 @@ nvm install 24
 ```bash
 npm install -g @openai/codex
 ```
+
+### MacPorts
+
+Homebrew の代わり。
+
+```bash
+curl -fL -o /tmp/MacPorts.pkg https://github.com/macports/macports-base/releases/download/v2.12.6/MacPorts-2.12.6-13-Ventura.pkg && sudo installer -pkg /tmp/MacPorts.pkg -target / && rm /tmp/MacPorts.pkg
+echo 'export PATH="/opt/local/bin:/opt/local/sbin:$PATH"' >> ~/.zprofile
+source ~/.zprofile
+```
+
+```bash
+sudo port install gh jq ripgrep
+```
