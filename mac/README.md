@@ -33,5 +33,5 @@ source ~/.zprofile
 ```
 
 ```bash
-sudo port install gh jq ripgrep
+sudo port -N install gh jq ripgrep
 ```
