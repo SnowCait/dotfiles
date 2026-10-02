@@ -22,6 +22,7 @@ winget install --id=Microsoft.VisualStudio.2022.Community-Preview -e --silent
 
 # Visual Studio Code
 winget install -e --id Microsoft.VisualStudioCode --silent
+code --install-extension ms-vscode-remote.remote-ssh
 code --install-extension MS-CEINTL.vscode-language-pack-ja
 code --install-extension esbenp.prettier-vscode
 code --install-extension svelte.svelte-vscode
