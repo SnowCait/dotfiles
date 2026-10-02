@@ -35,3 +35,12 @@ source ~/.zprofile
 ```bash
 sudo port -N install gh jq ripgrep
 ```
+
+### Git
+
+```bash
+git config --global user.name <name>
+git config --global user.email <email>
+git config --global user.useConfigOnly = true
+git config --global core.autocrlf input
+```
