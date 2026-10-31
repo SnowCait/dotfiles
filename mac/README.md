@@ -22,6 +22,8 @@ nvm install 24
 npm install -g @openai/codex
 ```
 
+`~/.zshenv` （`~/.zshrc` は対話シェル用なので非対話シェルでも読めるように）に `GH_TOKEN` を設定しておく。
+
 ### MacPorts
 
 Homebrew の代わり。
